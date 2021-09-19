@@ -18,7 +18,7 @@ namespace Android_Assignments_CASE
         }
         private void Slider_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            string[] a = new string[35] { "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g", };
+            string[] a = new string[35] { "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g", "a", "b", "c", "d", "e", "f", "g" };
             int b = (int)e.NewValue - 16;
             quote.Text = a[b];
             quote.FontSize = b + 16;
