@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Android_Assignments_CASE.Assignment3_Dialer" BackgroundColor="#354242">
+    <ContentPage.Content>
+        <Grid Padding="40" RowSpacing="10" ColumnSpacing="10" >
+            <Label x:Name="phoneNumber" Grid.Row="0" Grid.ColumnSpan="3" HorizontalTextAlignment="Center" FontSize="50" TextColor="White" />
+            <Button Grid.Row="1" Grid.Column="0" Text="1" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="2" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked" />
+            <Button Grid.Row="1" Grid.Column="2" Text="3" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked" />
+            <Button Grid.Row="2" Grid.Column="0" Text="4" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="5" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked"/>
+            <Button Grid.Row="2" Grid.Column="2" Text="6" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked"/>
+            <Button Grid.Row="3" Grid.Column="0" Text="7" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="8" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked"/>
+            <Button Grid.Row="3" Grid.Column="2" Text="9" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="1" Text="0" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30"  Clicked="Button_Clicked"/>
+            <Button Grid.Row="5" Grid.ColumnSpan="3" FontSize="30" Text="Dial" BackgroundColor="#96ca2d" CornerRadius="50" Clicked="Button_Clicked_1" TextColor="White"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
