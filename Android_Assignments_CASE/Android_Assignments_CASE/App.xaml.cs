@@ -10,7 +10,7 @@ namespace Android_Assignments_CASE
         {
             InitializeComponent();
 
-            MainPage = new Assignment6_Relative();
+            MainPage = new Assignment1();
         }
 
         protected override void OnStart()
