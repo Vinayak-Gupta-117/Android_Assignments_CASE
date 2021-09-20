@@ -10,7 +10,7 @@ namespace Android_Assignments_CASE
         {
             InitializeComponent();
 
-            MainPage = new Assignment4_Grid();
+            MainPage = new Assignment7_Image();
         }
 
         protected override void OnStart()

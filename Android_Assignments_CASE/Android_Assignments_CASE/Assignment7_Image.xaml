@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Android_Assignments_CASE.Assignment7_Image" BackgroundColor="Black">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image x:Name="img" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="0,0.5,1,1" AbsoluteLayout.LayoutFlags="PositionProportional,HeightProportional,WidthProportional"/>
+            <ImageButton x:Name="back" BackgroundColor="Black" Clicked="back_Clicked" AbsoluteLayout.LayoutBounds="0.10,0.05,0.2,0.1" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional" Source="https://www.iconsdb.com/icons/preview/white/arrow-111-xxl.png"/>
+            <ActivityIndicator IsRunning="{Binding Source={x:Reference img},Path=IsLoading}" AbsoluteLayout.LayoutBounds="0.5,0.05,0.2,0.1" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional"/>
+            <ImageButton x:Name="next" BackgroundColor="Black" Clicked="next_Clicked" AbsoluteLayout.LayoutBounds="0.90,0.05,0.2,0.1" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional,HeightProportional" Source="https://www.iconsdb.com/icons/preview/white/arrow-11-xxl.png" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
