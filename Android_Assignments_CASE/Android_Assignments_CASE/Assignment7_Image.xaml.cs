@@ -21,18 +21,14 @@ namespace Android_Assignments_CASE
         public Assignment7_Image()
         {
             InitializeComponent();
-            var imgso = (UriImageSource)ImageSource.FromUri(new Uri(a[i]));
-            imgso.CachingEnabled = false;
-            img.Source = imgso;
+            img.Source = a[i];
         }
         private void back_Clicked(object sender, EventArgs e)
         {
             if (i > 0)
             {
                 i = i - 1;
-                var imgso = (UriImageSource)ImageSource.FromUri(new Uri(a[i]));
-                imgso.CachingEnabled = false;
-                img.Source = imgso;
+                img.Source = a[i];
             }
 
         }
@@ -42,9 +38,7 @@ namespace Android_Assignments_CASE
             if (i < 4)
             {
                 i = i + 1;
-                var imgso = (UriImageSource)ImageSource.FromUri(new Uri(a[i]));
-                imgso.CachingEnabled = false;
-                img.Source = imgso;
+                img.Source = a[i];
             }
 
         }
